@@ -1,6 +1,6 @@
-package patrones_creacionales.abstract_factory.paso2;
+package patrones_creacionales.abstract_factory.abstractPresentation.paso2;
 
-import patrones_creacionales.abstract_factory.paso1.Sofa;
+import patrones_creacionales.abstract_factory.abstractPresentation.paso1.Sofa;
 
 
 public class SofaArtDeco implements Sofa {

@@ -1,12 +1,12 @@
-package patrones_creacionales.abstract_factory.paso5;
+package patrones_creacionales.abstract_factory.abstractPresentation.paso5;
 
 
-import patrones_creacionales.abstract_factory.paso1.Mesilla;
-import patrones_creacionales.abstract_factory.paso1.Silla;
-import patrones_creacionales.abstract_factory.paso1.Sofa;
-import patrones_creacionales.abstract_factory.paso3.FabricaAbstracta;
-import patrones_creacionales.abstract_factory.paso4.FabricaModerna;
-import patrones_creacionales.abstract_factory.paso4.FabricaVictoriana;
+import patrones_creacionales.abstract_factory.abstractPresentation.paso1.Mesilla;
+import patrones_creacionales.abstract_factory.abstractPresentation.paso1.Silla;
+import patrones_creacionales.abstract_factory.abstractPresentation.paso1.Sofa;
+import patrones_creacionales.abstract_factory.abstractPresentation.paso3.FabricaAbstracta;
+import patrones_creacionales.abstract_factory.abstractPresentation.paso4.FabricaModerna;
+import patrones_creacionales.abstract_factory.abstractPresentation.paso4.FabricaVictoriana;
 
 public class TiendaMuebles {
     private Silla silla;
