@@ -1,6 +1,7 @@
 package patrones_creacionales.abstract_factory.paso2;
 
-import proceso.paso1.Sofa;
+import patrones_creacionales.abstract_factory.paso1.Sofa;
+
 
 public class SofaArtDeco implements Sofa {
     @Override

@@ -1,11 +1,12 @@
 package patrones_creacionales.abstract_factory.paso5;
 
-import proceso.paso1.Mesilla;
-import proceso.paso1.Silla;
-import proceso.paso1.Sofa;
-import proceso.paso3.FabricaAbstracta;
-import proceso.paso4.FabricaModerna;
-import proceso.paso4.FabricaVictoriana;
+
+import patrones_creacionales.abstract_factory.paso1.Mesilla;
+import patrones_creacionales.abstract_factory.paso1.Silla;
+import patrones_creacionales.abstract_factory.paso1.Sofa;
+import patrones_creacionales.abstract_factory.paso3.FabricaAbstracta;
+import patrones_creacionales.abstract_factory.paso4.FabricaModerna;
+import patrones_creacionales.abstract_factory.paso4.FabricaVictoriana;
 
 public class TiendaMuebles {
     private Silla silla;

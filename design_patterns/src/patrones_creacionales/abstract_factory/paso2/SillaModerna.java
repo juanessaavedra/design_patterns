@@ -1,6 +1,7 @@
 package patrones_creacionales.abstract_factory.paso2;
 
-import proceso.paso1.Silla;
+import patrones_creacionales.abstract_factory.paso1.Silla;
+
 
 public class SillaModerna implements Silla {
     @Override

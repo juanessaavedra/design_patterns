@@ -1,12 +1,13 @@
 package patrones_creacionales.abstract_factory.paso4;
 
-import proceso.paso1.Mesilla;
-import proceso.paso1.Silla;
-import proceso.paso1.Sofa;
-import proceso.paso2.MesillaModerna;
-import proceso.paso2.SillaModerna;
-import proceso.paso2.SofaModerno;
-import proceso.paso3.FabricaAbstracta;
+import patrones_creacionales.abstract_factory.paso1.Mesilla;
+import patrones_creacionales.abstract_factory.paso1.Silla;
+import patrones_creacionales.abstract_factory.paso1.Sofa;
+import patrones_creacionales.abstract_factory.paso2.MesillaModerna;
+import patrones_creacionales.abstract_factory.paso2.SillaModerna;
+import patrones_creacionales.abstract_factory.paso2.SofaModerno;
+import patrones_creacionales.abstract_factory.paso3.FabricaAbstracta;
+
 
 public class FabricaModerna implements FabricaAbstracta {
     @Override

@@ -1,6 +1,7 @@
 package patrones_creacionales.abstract_factory.paso2;
 
-import proceso.paso1.Mesilla;
+import patrones_creacionales.abstract_factory.paso1.Mesilla;
+
 
 public class MesillaVictoriana implements Mesilla {
     @Override
