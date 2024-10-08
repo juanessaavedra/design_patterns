@@ -3,3 +3,6 @@ Es un patron de diseño creacional que permite copiar objetos evitando el proces
 
 ## Ejemplo teórico: Sistema de libros
 ## Ejemplo de laboratorio: Sistema de personajes de videojuegos
+
+## Diferencia entre clonacion superficial y profunda
+La clonacion superficial copia solo los valores de los atributos primitivos, mientras que la clonacion profunda copia los valores de los atributos primitivos y los objetos que contienen
