@@ -16,5 +16,8 @@ public class Main {
         NewService newService = new NewService();
         Target target2 = new NewServiceAdapter(newService);
         target2.request();
+
+
+
     }
 }
