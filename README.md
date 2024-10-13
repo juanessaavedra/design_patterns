@@ -8,11 +8,11 @@ Una analogia para un patron de diseño es similiar a un plano, ya que puedes obs
 ## Clasificacion de los patrones
 Se clasifican segun su proposito, puedes conocerlos a mas detalle aca:
 
-[Patrones creacionales >>](./)
+[Patrones creacionales >>](./design_patterns/src/patrones_creacionales/CREACIONALES.md)
 
-[Patrones estructurales >>](./)
+[Patrones estructurales >>](./design_patterns/src/patrones_estructurales/ESTRUCTURALES.md)
 
-[Patrones de comportamiento >>](./)
+[Patrones de comportamiento >>](./design_patterns/src/patrones_comportamiento/COMPORTAMIENTO.md)
 
 
 
