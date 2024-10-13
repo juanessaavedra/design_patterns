@@ -1,7 +1,8 @@
 # Principios SOLID
-<div style="text-align: center;">
-    <img src="./solid.jpg" alt="Texto alternativo" width="500"/>
-</div>
+<p align="center">
+  <img src="./solid.jpg" alt="Texto alternativo" width="400"/>
+</p>
+
 
 La mayoria de patrones de diseño mencionados anteriormente, se basan en estos principios. 
 
