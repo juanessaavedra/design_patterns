@@ -10,7 +10,7 @@ Si estas trabajando con un lenguaje de POO te ayuda a hacer codigo escalable, ma
 
 ### Single Responsibility Principle
 Principio de responsabilidad unica
-[S >>](./single_reponsability/SINGLE.md)
+[S >>](./single_responsability/SINGLE.md)
 
 ### Open/Closed Principle
 Principio de abierto/cerrado
