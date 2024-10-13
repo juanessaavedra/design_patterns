@@ -1,5 +1,5 @@
 # Principios SOLID
-<img src="./solid.jpg" alt="SOLID" width="300"/>
+<img src="./solid.jpg" alt="SOLID" width="300" align="center"/>
 
 
 La mayoria de patrones de diseño mencionados anteriormente, se basan en estos principios. 
