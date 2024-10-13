@@ -10,20 +10,20 @@ Si estas trabajando con un lenguaje de POO te ayuda a hacer codigo escalable, ma
 
 ### Single Responsibility Principle
 Principio de responsabilidad unica
-[S >>](./)
+[S >>](./dependency_inversion/DEPENDENCY.md)
 
 ### Open/Closed Principle
 Principio de abierto/cerrado
-[O >>](./)
+[O >>](./open_closed/OPENCLOSED.md)
 
 ### Liskov Substitution Principle
 Principio de sustitucion de Liskov
-[L >>](./)
+[L >>](./liskov_substitution/LISKOV.md)
 
 ### Interface Segregation Principle
 Principio de segregacion de la interfaz
-[I >>](./)
+[I >>](./interface_segregation/INTERFACES.md)
 
 ### Dependency Inversion Principle
 Principio de inversion de la dependencia
-[D >>](./)
+[D >>](./dependency_inversion/DEPENDENCY.md)
