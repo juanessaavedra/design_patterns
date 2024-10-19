@@ -1,5 +1,5 @@
 ## Iterator
-Patron de diseño de comportamiento que permite recorrer elementos de una coleccion sin exponer su representacion subyacente.
+Patron de diseño de comportamiento que permite recorrer elementos de una coleccion sin exponer su representacion subyacente. No expone su estructura interna, sino que proporciona un mecanismo para acceder a los elementos de la coleccion de manera secuencial.
 
 ## Proposito
 La idea central es extraer el comportamiento de recorrido de una coleccion y colocarlo en un objeto independiente llamado iterador. 
@@ -21,4 +21,5 @@ Imagina que la biblioteca tiene estanterías llenas de libros (la colección de 
 
 ## Aplicabilidad
 Se ve un ejemplo en el codigo del repositorio.
+
 

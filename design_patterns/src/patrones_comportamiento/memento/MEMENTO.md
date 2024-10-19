@@ -1,0 +1,2 @@
+
+Nos permite recordar los estados de un objeto. Si quiero recordar el estado de un objeto en un momento dado, puedo guardar ese estado en un objeto memento. Luego, si quiero volver a ese estado, puedo recuperar el objeto memento y restaurar el estado del objeto original.
