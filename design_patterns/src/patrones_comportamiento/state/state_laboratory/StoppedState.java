@@ -1,4 +1,4 @@
-package patrones_comportamiento.state.laboratory;
+package patrones_comportamiento.state.state_laboratory;
 
 public class StoppedState implements IState {
     @Override
