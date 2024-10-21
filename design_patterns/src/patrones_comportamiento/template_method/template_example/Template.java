@@ -3,7 +3,6 @@ package patrones_comportamiento.template_method.template_example;
 
 //Clase abstracta
 public abstract class Template {
-    //metodo template
     public void execute() {
         step1();
         step2();
