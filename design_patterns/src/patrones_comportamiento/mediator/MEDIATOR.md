@@ -7,12 +7,11 @@ Define un objeto que encapsula como interactuan un conjunto de objetos. Este pat
 - Cuando se quiere desacoplar la comunicacion entre objetos
 - Cuando se quiere centralizar la comunicacion entre objetos
 
-## Componentes
-1. Mediator: Define una interfaz para comunicarse con los objetos
-2. ConcreteMediator: Implementa la interfaz Mediator y mantiene una referencia a los objetos que se comunican
-3. Colleague: Define una interfaz para comunicarse con el Mediator
-4. ConcreteColleague: Implementacion de los objetos que utilizan el mediador
+## Justificación
+Reduce las dependencias entre los objetos, mejorando la mantenibilidad
 
 ## Analogia mundo real
 Imaginemos una aplicacion de chat, donde varios usuarios se comunican entre si. En este caso, el servidor de chat seria el mediador, y los usuarios serian los colegas. Los usuarios no se conocen entre si, pero se comunican a traves del servidor de chat.
 
+*Segundo ejemplo:*
+Piensa en un coordinador de eventos que organiza una fiesta. En lugar de que todos los invitados se comuniquen entre sí, hablan con el coordinador, quien organiza todo.
