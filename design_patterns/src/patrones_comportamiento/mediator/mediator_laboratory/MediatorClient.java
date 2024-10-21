@@ -7,12 +7,16 @@ public class MediatorClient {
         User user2 = new User(mediator, "Pedro");
         User user3 = new User(mediator, "Maria");
         User user4 = new User(mediator, "Ana");
+
         mediator.addUser(user1);
         mediator.addUser(user2);
         mediator.addUser(user3);
         mediator.addUser(user4);
-        user1.send("Hola a todos");
-        user2.send("Hola Juan");
-        user3.send("Hola Pedro");
+
+        user1.send(new TextMessage("Hola a todos"));
+        user2.send(new TextMessage("Hola Juan"));
+        user3.send(new ImageMessage("http://example.com/image.jpg"));
+
+        mediator.removeUser(user4);
     }
 }

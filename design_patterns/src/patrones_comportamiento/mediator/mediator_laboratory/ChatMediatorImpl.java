@@ -5,23 +5,37 @@ import java.util.List;
 
 //Implementar la clase ConcreteMediator
 public class ChatMediatorImpl implements ChatMediator {
-    private List<Colleague> colleagues;
+    private List<Colleague> users;
 
-    public ChatMediatorImpl(){
-        this.colleagues = new ArrayList<>();
+    public ChatMediatorImpl() {
+        this.users = new ArrayList<>();
     }
 
     @Override
-    public void sendMessage(String message, Colleague colleague) {
-        for(Colleague c : colleagues){
-            if(c != colleague){
-                c.receive(message);
+    public void sendMessage(Message message, Colleague sender) {
+        for (Colleague user : users) {
+            if (user != sender) {
+                user.receive(message);
             }
         }
     }
 
     @Override
-    public void addUser(Colleague colleague) {
-        this.colleagues.add(colleague);
+    public void addUser(Colleague user) {
+        this.users.add(user);
+        notifyUsers("User " + ((User) user).getName() + " has joined the chat.");
+    }
+
+    @Override
+    public void removeUser(Colleague user) {
+        this.users.remove(user);
+        notifyUsers("User " + ((User) user).getName() + " has left the chat.");
+    }
+
+    @Override
+    public void notifyUsers(String notification) {
+        for (Colleague user : users) {
+            user.receive(new TextMessage(notification));
+        }
     }
 }
