@@ -12,9 +12,17 @@ public class Main {
         elements.add(new ConcreteElementC());
 
         Visitor visitor = new ConcreteVisitor();
+        Visitor anotherVisitor = new AnotherVisitor();
 
+        System.out.println("Using ConcreteVisitor:");
         for (Element element : elements) {
-            element.accept(visitor); //El visitor visita cada elemento
+            element.accept(visitor); // The visitor visits each element
+        }
+
+        System.out.println("\nUsing AnotherVisitor:");
+        for (Element element : elements) {
+            element.accept(anotherVisitor); // The anotherVisitor visits each element
         }
     }
-}
+    }
+
