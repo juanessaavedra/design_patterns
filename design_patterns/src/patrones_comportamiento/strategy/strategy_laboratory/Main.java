@@ -8,19 +8,19 @@ public class Main {
 
         int[] array = {64, 34, 25, 12, 22, 11, 90};
 
-        context.setSortStrategy(new BubbleSortStrategy());
+        context.setSortStrategy(SortStrategyFactory.getSortStrategy("bubble"));
         context.executeStrategy(array);
         System.out.println("Sorted array: " + Arrays.toString(array));
 
         array = new int[]{64, 34, 25, 12, 22, 11, 90};
-        context.setSortStrategy(new QuickSortStrategy());
+        context.setSortStrategy(SortStrategyFactory.getSortStrategy("quick"));
         context.executeStrategy(array);
         System.out.println("Sorted array: " + Arrays.toString(array));
 
         array = new int[]{64, 34, 25, 12, 22, 11, 90};
-        context.setSortStrategy(new MergeSortStrategy());
+        context.setSortStrategy(SortStrategyFactory.getSortStrategy("merge"));
         context.executeStrategy(array);
         System.out.println("Sorted array: " + Arrays.toString(array));
     }
     }
-}
+
