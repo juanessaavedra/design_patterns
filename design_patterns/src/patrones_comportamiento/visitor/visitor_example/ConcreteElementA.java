@@ -6,6 +6,11 @@ public class ConcreteElementA implements Element {
         visitor.visit(this);
     }
 
+    @Override
+    public String getName() {
+        return "ConcreteElementA";
+    }
+
     public void operationA() {
         System.out.println("Operation A");
     }
