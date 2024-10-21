@@ -1,5 +1,12 @@
-## Proxy
+# Proxy (Representante)
+- Actua como intermediario entre un objeto real y el cliente que lo utiliza.
+- Proporciona un sustituto o representante de otro objeto para controlar el acceso a el. (guarda de un condominio)
 
+## Ejemplo:
+- Control de acceso a recursos: Verificar permisos antes de acceder a un servicio o recurso
+
+## Justificacion: 
+Mejora el control sobre el acceso y el uso de recursos
 
 
 # Analogia mundo real
