@@ -2,12 +2,14 @@ package patrones_comportamiento.template_method.template_laboratory;
 
 public class Main {
     public static void main(String[] args) {
-        FoodPreparationTemplate salad = new SaladPreparation();
-        salad.prepareFood();
+        FoodPreparationTemplate pastaPreparation = new PastaPreparation();
 
-        System.out.println();
+        // Set the cooking strategy to boiling
+        pastaPreparation.setCookingStrategy(new BoilingStrategy());
+        pastaPreparation.prepareFood();
 
-        FoodPreparationTemplate pasta = new PastaPreparation();
-        pasta.prepareFood();
+        // Change the cooking strategy to grilling
+        pastaPreparation.setCookingStrategy(new GrillingStrategy());
+        pastaPreparation.prepareFood();
     }
 }

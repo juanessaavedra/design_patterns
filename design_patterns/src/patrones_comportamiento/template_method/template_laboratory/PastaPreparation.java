@@ -6,8 +6,4 @@ public class PastaPreparation extends FoodPreparationTemplate {
         System.out.println("Gathering ingredients for Pasta");
     }
 
-    @Override
-    protected void cook() {
-        System.out.println("Cooking the Pasta");
-    }
 }
